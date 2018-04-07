@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+div.main-content {
+	background-color: lightgrey;
+	text-align: center;
+}
+
+div.footer {
+	font-size: 80%;
+	display: none;
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.ol-li {
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit;
+    padding-left: 10px;
+}
