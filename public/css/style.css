@@ -25,3 +25,11 @@ div.footer {
     line-height: inherit;
     padding-left: 10px;
 }
+
+.error {
+	color: red;
+}
+
+.ok {
+	color: greenyellow;
+}

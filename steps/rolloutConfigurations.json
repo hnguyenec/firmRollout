@@ -1,0 +1,12 @@
+[
+	{
+		"name": "create_firm",
+		"title": "Creating a new firm data",
+		"skipable": false
+	},
+	{
+		"name": "create_firm_options",
+		"title": "Creating a new firm options",
+		"skipable": false
+	}
+]

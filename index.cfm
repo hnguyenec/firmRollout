@@ -18,12 +18,18 @@
     <link rel="stylesheet" href="public/css/style.css">
   </head>
   <body>
+    <!--- for bypass debugging --->
+    <cfset session.cvmail_system_admin = true />
+    <cfset session.userId = 2 />
     
     <div class="container main-content">
-        <a href="void(0);" class="btn btn-default start">
+        <a href="javascript: void(0)" class="btn btn-default start">
             <img src="public/images/png/tim-burton-icon.png">
             <span>Start rollout process</span>
         </a>
+    </div>
+    <div class="step-container">
+        
     </div>
     <div class="container footer">
         <div class="log-message">
@@ -34,7 +40,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
     <script src="public/js/main.js"></script>
